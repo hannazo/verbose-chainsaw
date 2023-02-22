@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
+const generateMarkdown = require('./utils/generateMarkdown')
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -8,7 +9,7 @@ const questions = [
         type: 'input',
         name: 'username',
         message: 'What is your GitHub username?',
-        validate: function(answer) {
+        validate: answer => {
             if (answer.length < 1) {
                 return console.log("Please enter your username");
             }
@@ -19,7 +20,7 @@ const questions = [
         type: 'input',
         name: 'email',
         message: 'What is your email address?',
-        validate: function(answer) {
+        validate: answer => {
             if (answer.length < 1) {
                 return console.log("Please enter your email address");
             }
@@ -30,7 +31,7 @@ const questions = [
         type: 'input',
         name: 'title',
         message: "What it your project's title?",
-        validate: function(answer) {
+        validate: answer => {
             if (answer.length < 1) {
                 return console.log("Please enter project title");
             }
@@ -74,7 +75,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName, JSON.stringify(data, null,'\t'), (err) =>
+    fs.writeFile(fileName, data, (err) =>
     err ? console.log(err) : console.log('Success! README file has been created.')
     )
 };
@@ -85,7 +86,7 @@ function init() {
     .then((data) => {
         const fileName = `README.md`;
 
-        writeToFile(fileName, data);
+        writeToFile(fileName, generateMarkdown(data));
     });
 }
 
