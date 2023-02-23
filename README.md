@@ -37,4 +37,4 @@ To run tests, run 'npm test' command.
   
 ## Questions
   
-If you have any questions about the repo, open an issue or contact me directly at hannazo@email.com. You can find more of my work at [hannazo](https://github.com/hannazo).
+If you have any questions about the repo, open an issue or contact me directly at hannazo@email.com. You can find more of my work [here](https://github.com/hannazo).

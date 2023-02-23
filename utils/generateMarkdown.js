@@ -120,7 +120,7 @@ To run tests, run '${data.test}' command.
   
 ## Questions
   
-If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at [${data.username}](https://github.com/${data.username}).`;
+If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work [here](https://github.com/${data.username}).`;
 }
 
 module.exports = generateMarkdown;
