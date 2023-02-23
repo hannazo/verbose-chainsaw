@@ -1,6 +1,6 @@
 # README Generator
 
-[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
   
 ## Description
   
@@ -21,11 +21,11 @@ To install necessary dependencies, run 'npm i' command.
   
 ## Usage
   
-Use to quickly generate README files
+Run index.js in terminal and follow the prompts to quickly generate a README file
   
 ## License
   
-This project is licensed under the GNU AGPLv3 license.
+This project is licensed under the Mozilla Public License 2.0 license. Click [here](https://opensource.org/licenses/MPL-2.0) to read more.
   
 ## How to Contribute
   
@@ -37,4 +37,4 @@ To run tests, run 'npm test' command.
   
 ## Questions
   
-If you have any questions about the repo, open an issue or contact me directly at hannaz@email.com. You can find more of my work at [hannazo](https://github.com/hannazo).
+If you have any questions about the repo, open an issue or contact me directly at hannazo@email.com. You can find more of my work at [hannazo](https://github.com/hannazo).

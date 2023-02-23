@@ -32,11 +32,42 @@ function renderLicenseBadge(license) {
   else {
     return '';
   }
- }
+ };
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) { }
+function renderLicenseLink(license) { 
+  if (license === 'APACHE 2.0') {
+    return 'https://opensource.org/licenses/Apache-2.0';
+  }
+  if (license === 'MIT') {
+    return 'https://opensource.org/licenses/MIT';
+  }
+  if (license === 'ISC') {
+    return 'https://opensource.org/licenses/ISC';
+  }
+  if (license === 'GNU GPLv3') {
+    return 'https://www.gnu.org/licenses/gpl-3.0';
+  }
+  if (license === 'GNU AGPLv3') {
+    return 'https://www.gnu.org/licenses/agpl-3.0';
+  }
+  if (license === 'GNU LGPLv3') {
+    return 'https://www.gnu.org/licenses/lgpl-3.0';
+  }
+  if (license === 'Mozilla Public License 2.0') {
+    return 'https://opensource.org/licenses/MPL-2.0';
+  }
+  if (license === 'Boost Software License 1.0') {
+    return 'https://www.boost.org/LICENSE_1_0.txt';
+  }
+  if (license === 'The Unlicense') {
+    return 'http://unlicense.org/';
+  }
+  else {
+    return '';
+  }
+};
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -71,7 +102,7 @@ ${data.usage}
   
 ## License
   
-This project is licensed under the ${data.license} license.
+This project is licensed under the ${data.license} license. Click [here](${renderLicenseLink(data.license)}) to read more.
   
 ## How to Contribute
   
