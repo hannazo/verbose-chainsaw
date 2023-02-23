@@ -1,4 +1,3 @@
-// choices: ['None', 'APACHE 2,0', 'MIT', 'ISC', 'GNU GPLv3', 'GNU AGPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Boost Software License 1.0', 'The Unlicense'],
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
@@ -71,7 +70,16 @@ function renderLicenseLink(license) {
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) { }
+function renderLicenseSection(license) { 
+  if (license === 'None') {
+    return '';
+  }
+  else {
+    return `## License
+    
+This project is licensed under the ${license} license. Click [here](${renderLicenseLink(license)}) to read more.`;
+  }
+};
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -100,9 +108,7 @@ To install necessary dependencies, run '${data.installation}' command.
   
 ${data.usage}
   
-## License
-  
-This project is licensed under the ${data.license} license. Click [here](${renderLicenseLink(data.license)}) to read more.
+${renderLicenseSection(data.license)}
   
 ## How to Contribute
   

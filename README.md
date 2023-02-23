@@ -1,10 +1,10 @@
 # README Generator
 
-[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
 ## Description
   
-This is a short description of my project
+Quickly and easily generate a README file by using a command-line application
   
 ## Table of Contents
 
@@ -24,8 +24,8 @@ To install necessary dependencies, run 'npm i' command.
 Run index.js in terminal and follow the prompts to quickly generate a README file
   
 ## License
-  
-This project is licensed under the Mozilla Public License 2.0 license. Click [here](https://opensource.org/licenses/MPL-2.0) to read more.
+    
+This project is licensed under the MIT license. Click [here](https://opensource.org/licenses/MIT) to read more.
   
 ## How to Contribute
   
