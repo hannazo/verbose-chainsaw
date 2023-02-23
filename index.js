@@ -58,7 +58,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'What kind of license should your project have?',
-        choices: ['None', 'APACHE 2,0', 'MIT', 'ISC', 'GNU GPLv3', 'GNU AGPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Boost Software License 1.0', 'The Unlicense'],
+        choices: ['None', 'APACHE 2.0', 'MIT', 'ISC', 'GNU GPLv3', 'GNU AGPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Boost Software License 1.0', 'The Unlicense'],
     },
     {
         type: 'input',
