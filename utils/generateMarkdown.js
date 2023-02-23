@@ -77,7 +77,7 @@ function renderLicenseSection(license) {
   else {
     return `## License
     
-This project is licensed under the ${license} license. Click [here](${renderLicenseLink(license)}) to read more.`;
+This project is licensed under the [${license}](${renderLicenseLink(license)}) license.`;
   }
 };
 

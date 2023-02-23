@@ -25,7 +25,7 @@ Run index.js in terminal and follow the prompts to quickly generate a README fil
   
 ## License
     
-This project is licensed under the MIT license. Click [here](https://opensource.org/licenses/MIT) to read more.
+This project is licensed under the [MIT](https://opensource.org/licenses/MIT) license.
   
 ## How to Contribute
   
