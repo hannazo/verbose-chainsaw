@@ -1,4 +1,6 @@
 # README Generator
+
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
   
 ## Description
   
@@ -23,7 +25,7 @@ Use to quickly generate README files
   
 ## License
   
-This project is licensed under the MIT license.
+This project is licensed under the GNU AGPLv3 license.
   
 ## How to Contribute
   
