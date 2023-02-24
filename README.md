@@ -5,6 +5,7 @@
 ## Description
   
 Quickly and easily generate a README file by using a command-line application
+[Walkthrough Video](https://drive.google.com/file/d/1TbmXHVtRQDnwI2dWJxVKQ_UKwKQIk-uf/view)
   
 ## Table of Contents
 
@@ -29,7 +30,7 @@ This project is licensed under the [MIT](https://opensource.org/licenses/MIT) li
   
 ## How to Contribute
   
-Please follow Contributor Covenant Code of Conduct
+Please follow [Contributor Covenant](https://www.contributor-covenant.org/) Code of Conduct
   
 ## Tests
   
